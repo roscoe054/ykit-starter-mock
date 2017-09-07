@@ -9,7 +9,7 @@ module.exports = [
     },
     {
         pattern: '/test-remote.do',
-        responder: {name: 'Roscoe'}
+        responder: 'http://yapi.corp.qunar.com/mock/58/getItems'
     },
     {
         pattern: '/test-post.do',
