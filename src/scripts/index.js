@@ -32,10 +32,9 @@ $.ajax({
 
 $.ajax({
     type: "get",
-    url: "/test-jsonp.do?callback=dataHandler",
+    url: "/test-jsonp.do",
     dataType: "jsonp",
     jsonp: "callback",
-    jsonpCallback: "dataHandler",
     success: function(res) {
         console.log('jsonp', res);
     }
