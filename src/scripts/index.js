@@ -13,8 +13,8 @@ $.get('/test-local-js.do', function(res) {
 $.get('/test-func.do', function(res) {
     console.log('function', res);
 });
-
-$.get('/test-remote.do', function(res) {
+//
+$.get('/mock/134/api/hotel/remote.json', function(res) {
     console.log('remote', res);
 });
 

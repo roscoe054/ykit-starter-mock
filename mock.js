@@ -8,8 +8,8 @@ module.exports = [
         responder: './mockData/local-data.js'
     },
     {
-        pattern: '/test-remote.do',
-        responder: 'http://yapi.corp.qunar.com/mock/58/getItems'
+        pattern: /\/(.*)remote\.json/,
+        responder: 'http://yapi.corp.qunar.com/mock/751/roscoe/remote'
     },
     {
         pattern: '/test-post.do',

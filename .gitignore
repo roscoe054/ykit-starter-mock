@@ -65,3 +65,4 @@ prd
 ver
 
 yarn.lock
+package-lock.json
