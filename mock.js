@@ -33,5 +33,9 @@ module.exports = [
                 "Mock.js"
             ]
         }
+    },
+    {
+        pattern: '/test-local-template.do',
+        responder: './mockData/local-data.html'
     }
 ];

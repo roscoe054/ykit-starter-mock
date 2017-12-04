@@ -39,3 +39,9 @@ $.ajax({
         console.log('jsonp', res);
     }
 });
+
+$.get('/test-local-template.do', function(res) {
+    var node = document.createElement("div");
+    node.innerHTML = res;
+    document.getElementsByClassName('app')[0].appendChild(node);
+});
